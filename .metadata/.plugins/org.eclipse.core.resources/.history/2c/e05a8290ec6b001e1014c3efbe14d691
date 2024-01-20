@@ -1,0 +1,36 @@
+package userdefinedobjects;
+
+import java.util.ArrayList;
+import java.util.Collections;
+
+
+public class SortByArrayList {
+
+	public static void main(String[] args) {
+		//
+		ArrayList<Employee> a = new ArrayList<Employee>();
+		a.add(new Employee(301,"Ram"));
+		a.add(new Employee(101,"Sam"));
+		a.add(new Employee(201,"Karan"));
+		
+		Collections.sort(a,new SortEmployeeById());
+		
+		for(Employee d:a) {
+			System.out.println(d);
+		}
+		System.out.println("=======================");
+		ArrayList<Employee> f = new ArrayList<Employee>();
+		f.add(new Employee(301,"Ram"));
+		f.add(new Employee(101,"Sam"));
+		f.add(new Employee(201,"Karan"));
+		
+		Collections.sort(f,new SortEmployeeByName());
+		
+		
+		for(Employee k:f) {
+			System.out.println(k);
+		}
+
+	}
+
+}

@@ -1,0 +1,36 @@
+package com;
+
+public class Idly {
+	int choice;
+	
+	Idly(int choice){
+		this.choice=choice;
+	}
+	@Override
+	public String toString() {
+		return "Choice: Idly"+choice;
+	}
+
+  public class Dosa{
+	  int choice;
+		
+		Dosa(int choice){
+			this.choice=choice;
+		}
+		@Override
+		public String toString() {
+			return "Choice: Dosa"+choice;
+		}
+  public class Samosa{
+	  int choice;
+		
+		Samosa(int choice){
+			this.choice=choice;
+		}
+		@Override
+		public String toString() {
+			return "Choice: Dosa"+choice;
+		}
+   }
+ }
+}

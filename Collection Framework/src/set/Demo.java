@@ -1,0 +1,33 @@
+package set;
+
+import java.util.HashSet;
+import java.util.LinkedHashSet;
+
+public class Demo {
+
+	public static void main(String[] args) {
+	  HashSet hs = new HashSet();
+      hs.add(10);
+      hs.add(2.4);
+      hs.add(10);
+      hs.add(null);
+      hs.add("java");
+      
+      System.out.println("Size : "+hs.size());// Duplicate are Removed.
+      for(Object obj:hs) {
+    	  System.out.println(obj);
+      }
+      
+      System.out.println("----------");
+      
+      LinkedHashSet<Integer> lhs = new LinkedHashSet<Integer>();
+      lhs.add(10);
+      lhs.add(20);
+      lhs.add(30);
+      lhs.add(10);
+      System.out.println("Size : "+lhs.size());
+      for(Integer i:lhs) {  //for(int i:lhs){
+    	  System.out.println(i);  //Insertion Order Maintained.
+      }
+	}
+}

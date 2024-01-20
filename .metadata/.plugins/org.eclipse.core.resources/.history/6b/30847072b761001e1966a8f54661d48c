@@ -1,0 +1,14 @@
+package storingobjects;
+
+import java.util.ArrayList;
+
+public class MainRunner {
+
+	public static void main(String[] args) {
+		ArrayList<Mobile> l = new ArrayList<Mobile>();
+		l.add(new Mobile("Apple","15 Pro",80000));
+		l.add(new Mobile("One Plus","Nord 5g",25000));
+		l.add(new Mobile("Vivo","11 4g",20000));
+	}
+
+}

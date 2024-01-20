@@ -1,0 +1,24 @@
+package com;
+
+public class Gadgets {
+
+}
+class Laptop extends Gadgets{
+	@Override
+	public String toString() {
+		return "Laptop Object";
+	}
+	
+}
+class Mobile extends Gadgets{
+	@Override
+	public String toString() {
+		return "Mobile Object";
+	}
+}
+class Watch extends Gadgets{
+	@Override
+	public String toString() {
+		return "Watch Object";
+	}
+}

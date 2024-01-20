@@ -1,0 +1,20 @@
+package com;
+
+public class SumAvg {
+
+	public static void main(String[] args) {
+		
+		int[] a = {10,20,30,40};
+		int sum=0;
+		//
+	    //  	for(int i=0; i<=a.length; i++) {
+		//	sum=sum+a[i];
+		//}
+		for(int i: a) {
+			sum=sum+i;
+		}
+       System.out.println(sum);
+       System.out.println(sum/a.length);
+	}
+
+}

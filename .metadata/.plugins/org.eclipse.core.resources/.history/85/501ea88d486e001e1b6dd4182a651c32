@@ -1,0 +1,17 @@
+package com;
+
+ interface OnlineShoppingApp {
+   void order();
+}
+   class Flipkart implements OnlineShoppingApp{
+	 @Override
+	public void order() {
+		 System.out.println("Ordering From Flipkart");	 
+	 }
+ }
+   class Amazon implements OnlineShoppingApp{
+	   @Override
+	  public void order() {
+		   System.out.println("Ordering From Amazon");
+	   }
+   }

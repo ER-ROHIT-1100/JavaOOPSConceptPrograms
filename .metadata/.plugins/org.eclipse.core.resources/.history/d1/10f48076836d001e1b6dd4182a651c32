@@ -1,0 +1,11 @@
+package com;
+
+public class FoodDeliveryApp {
+
+}
+class Swiggy extends FoodDeliveryApp {
+	
+}
+class Zomato extends FoodDeliveryApp {
+	
+}

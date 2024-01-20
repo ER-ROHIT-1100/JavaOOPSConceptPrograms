@@ -1,0 +1,38 @@
+package org;
+import java.util.*;
+public class GenericsDemo {
+
+	public static void main(String[] args) {
+		
+		ArrayList<String> l = new ArrayList<String>();
+         l.add("Web");
+         l.add("Sql");
+         l.add("Java");
+         
+         for(String s: l) {
+        	 System.out.println(s);
+         }
+         System.out.println("------------");
+         
+         LinkedList<Integer> ll = new LinkedList<Integer>();
+         ll.add(10);
+         ll.add(20);
+         ll.add(30);
+         ll.add(40);
+         
+        for(Integer i:ll){ // for(int i:ll) {
+        	 System.out.println(i);
+         }
+        System.out.println("------------");
+        
+		ArrayList al = new ArrayList();
+        al.add(10);  // al.add(new Integer(10));
+        al.add(1.5); // al.add(new Double(1.5));
+        al.add('A'); // al.add(new Character('A'));
+        
+        for(Object obj: al) {
+        	System.out.println(obj);
+        }
+	}
+
+}

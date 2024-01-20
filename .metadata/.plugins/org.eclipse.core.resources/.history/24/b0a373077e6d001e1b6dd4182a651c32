@@ -1,0 +1,60 @@
+package com;
+
+import java.util.Scanner;
+
+public class Hotel  {
+	/**
+	 * -Factory Design pattern means a method returning different types of 
+	 *  objects, we can achieve this by having generalized return type.
+	 * -If the returntype was Idly, the method can return only Idly Object.
+	 *  Therefore using Is- A Relationship & Genralization, if the returntype
+	 *  is Food,it can return Idly,Dosa & Birayani Objects.(Genarlization)
+	 */
+  
+    
+   static  Food orderFood(int choice){
+		if (choice == 1) {
+			Food  i= new Idly();
+		 return i;// return new Idly();
+		}
+		else if(choice == 2) {
+		Food d = new Dosa();
+		return d; // return new Dsa();
+		}
+		else if(choice == 3) {
+		 Food s = new Samosa();
+		 return s; // return new Samosa(); 
+		}
+		else {
+			return null;
+		}			
+	}
+   public static void main(String[] args) {
+	   Scanner scan = new Scanner(System.in);
+      System.out.println("Menu");
+      System.out.println("-----");
+      System.out.println("1:Idly\n:Dosa\n:Samosa\nEnter Choice:");
+      int choice = scan.nextInt();
+      
+      // Internally If orderFood(1);--> Food obj= new Idly();
+      // Internally If orderFood(2);--> Food obj= new Dosa();
+      // Internally If orderFood(3);--> Food obj= new Samosa();
+      // Internally If orderFood(4);--> Food obj= null;
+      
+	   Food obj= orderFood(choice);
+	 
+	  System.out.println(obj);
+	  if(obj instanceof Idly) {
+		  System.out.println("Eating Idly");
+	  }
+	  else if(obj instanceof Dosa) {
+		  System.out.println("Eating Dosa");
+	  }
+	  else if(obj instanceof Samosa) {
+		  System.out.println("Eating Samosa");
+	  }
+	  else {
+		  System.out.println("Invalid Choice");
+	  }
+}
+}

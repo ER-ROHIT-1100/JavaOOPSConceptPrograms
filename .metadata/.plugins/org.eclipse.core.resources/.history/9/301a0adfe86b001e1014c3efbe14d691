@@ -1,0 +1,19 @@
+package userdefinedobjects;
+
+import java.util.ArrayList;
+import java.util.Collections;
+
+public class SortUsingArrayList {
+	public static void main(String[] args) {
+		 ArrayList<Student> a = new ArrayList<Student>();
+	        a.add(new Student(78));
+	        a.add(new Student(92));
+	        a.add(new Student(56));
+	         
+	        Collections.sort(a);
+	        for(Student b:a) {
+	        	System.out.println(b);
+	        }
+	}
+
+}

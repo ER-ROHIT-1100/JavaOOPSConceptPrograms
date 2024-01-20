@@ -1,0 +1,5 @@
+package storingobjects;
+
+public class Student {
+
+}

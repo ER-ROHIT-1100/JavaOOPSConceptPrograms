@@ -1,0 +1,29 @@
+package org;
+
+import java.util.ArrayList;
+import java.util.Iterator;
+
+public class IteratorExample {
+
+	public static void main(String[] args) {
+		
+		ArrayList<Integer> l = new ArrayList<Integer>();
+		l.add(10);
+		l.add(20);
+		l.add(30);
+		
+     Iterator<Integer> i =l.iterator();
+       while(i.hasNext())
+         {
+    	   System.out.println(i.next());
+       }
+//	
+//	 for(int i:l){
+//	   System.out.println(i);
+//	 }
+//	  for(int j=0; j<l.size();j++) {
+//		  System.out.println(l.get(j));
+//	  }
+	 
+  }
+}

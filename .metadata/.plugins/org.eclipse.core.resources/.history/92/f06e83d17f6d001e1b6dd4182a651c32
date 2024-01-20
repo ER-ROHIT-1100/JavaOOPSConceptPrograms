@@ -1,0 +1,14 @@
+package com;
+
+public class Gadgets {
+
+}
+class Laptop extends Gadgets{
+	
+}
+class Mobile extends Gadgets{
+	
+}
+class Watch extends Gadgets{
+	
+}

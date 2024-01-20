@@ -1,0 +1,16 @@
+package com;
+
+public class Runner {
+
+	public static void main(String[] args) {
+		Jspider j = new Jspider();
+		Student s = j.display(2);
+		if(s!=null) {
+			s.study();
+		}else {
+			System.out.println("Invalid Choice");
+		}
+
+	}
+
+}

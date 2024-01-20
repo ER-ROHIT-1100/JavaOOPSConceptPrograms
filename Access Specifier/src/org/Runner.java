@@ -1,0 +1,10 @@
+package org;
+
+public class Runner {
+    public static void main(String[] args) {
+		Addition a = new Addition(10,20);
+		a.add();
+		
+	}
+    
+}

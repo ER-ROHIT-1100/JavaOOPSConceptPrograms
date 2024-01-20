@@ -1,0 +1,20 @@
+package userdefinedobjects;
+
+import java.util.TreeSet;
+
+public class SortByTreeSet {
+
+	public static void main(String[] args) {
+		// 
+		TreeSet<Employee> t = new TreeSet<Employee>(new SortEmployeeById());
+		t.add(new Employee(301,"Ram"));
+		t.add(new Employee(101,"Sam"));
+		t.add(new Employee(201,"Karan"));
+		
+		for(Employee e:t) {
+			System.out.println(e);
+		}
+
+	}
+
+}
