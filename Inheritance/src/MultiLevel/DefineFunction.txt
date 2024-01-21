@@ -1,0 +1,14 @@
+Defination:-
+  It is a combination of multiple super class and 
+multiple sub class is known as Multi Level Inheritance.
+ 
+A 
+^
+| extends 
+B
+^
+| extends 
+C
+^
+|  extends
+D

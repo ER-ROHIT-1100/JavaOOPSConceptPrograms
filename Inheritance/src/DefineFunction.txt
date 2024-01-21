@@ -1,0 +1,14 @@
+ Defination:-
+  The Process of one class aquiring the properties of another class is called as Inheritance.
+   OR
+.The class sharing the properties is called as super/parent class.
+The class aquiring the properties is called as
+child/derived class.
+
+RULES:-
+.It is achieved with help of "extends" Keyword.
+.Only variables and methods can be inherited where blocks and constructor can not be inherited.
+
+Five types of Inheritance are there:-
+1.Single level 2.Multi level 3.Hierarchical level
+4.Multipl level 5.Hybrid level

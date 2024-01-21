@@ -1,0 +1,8 @@
+Defination:-
+  It is a combination of One super class and 
+multiple sub class is known as Hierarchical Level Inheritance.
+ 
+     A 
+^          ^
+| extends  | 
+B          C

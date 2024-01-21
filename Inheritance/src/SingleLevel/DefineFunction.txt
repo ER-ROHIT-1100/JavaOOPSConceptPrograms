@@ -1,0 +1,8 @@
+Defination:-
+  It is a combination of single super class and 
+single sub class is known as Single Level Inheritance.
+ 
+A  Super/parent class
+^
+| extends 
+B Child/derived class
