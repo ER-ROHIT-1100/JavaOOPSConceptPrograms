@@ -1,0 +1,8 @@
+Defination :-
+    In a class Having multiple methods with the same name but change in arguments is called as method overloading.
+   The process of having multiple methods with same name but change in arguments.
+
+-RULES :
+.They should be change in number of arguments
+.They should be change in Data Type of arguments
+.They should be change in Order or Sequence Data Types.
